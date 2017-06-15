@@ -11,7 +11,9 @@
 <body>
     <div class="wrapper">
         <header>
-            <figure class="logo"> <img src="img/header_img.jpg" alt=""> </figure>
+           <div class="logo">
+            <img class="img-responsive" src="img/header_img.jpg" alt="">
+            </div>
             <hr>
             <nav>
                 <ul>

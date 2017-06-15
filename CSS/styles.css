@@ -1,25 +1,30 @@
 /* line 1, EksammenOpgave/CSS/styles.scss */
 .wrapper {
-  width: 90%;
+  width: 70%;
   margin: 0 auto; }
 
 /* line 6, EksammenOpgave/CSS/styles.scss */
 .img-responsive {
   width: 100%; }
 
+/* line 11, EksammenOpgave/CSS/styles.scss */
+.logo {
+  width: 85%;
+  margin-left: 5%; }
+
 /*NAV */
-/* line 13, EksammenOpgave/CSS/styles.scss */
+/* line 21, EksammenOpgave/CSS/styles.scss */
 nav {
   height: 40px;
   background-color: lightgray; }
-  /* line 16, EksammenOpgave/CSS/styles.scss */
+  /* line 24, EksammenOpgave/CSS/styles.scss */
   nav ul {
     padding-top: 10px; }
-    /* line 18, EksammenOpgave/CSS/styles.scss */
+    /* line 26, EksammenOpgave/CSS/styles.scss */
     nav ul li {
       list-style: none;
       display: inline-block; }
-      /* line 21, EksammenOpgave/CSS/styles.scss */
+      /* line 29, EksammenOpgave/CSS/styles.scss */
       nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
@@ -27,10 +32,10 @@ nav {
         font-weight: bold;
         padding-left: 20px;
         color: black; }
-        /* line 28, EksammenOpgave/CSS/styles.scss */
+        /* line 36, EksammenOpgave/CSS/styles.scss */
         nav ul li a:hover {
           color: #000; }
-    /* line 33, EksammenOpgave/CSS/styles.scss */
+    /* line 41, EksammenOpgave/CSS/styles.scss */
     nav ul li:nth-child(4) {
       float: right; }
 
