@@ -1,0 +1,37 @@
+/* line 1, EksammenOpgave/CSS/styles.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+/* line 6, EksammenOpgave/CSS/styles.scss */
+.img-responsive {
+  width: 100%; }
+
+/*NAV */
+/* line 12, EksammenOpgave/CSS/styles.scss */
+nav {
+  height: 40px;
+  background-color: lightgray; }
+  /* line 15, EksammenOpgave/CSS/styles.scss */
+  nav ul {
+    padding-top: 10px; }
+    /* line 18, EksammenOpgave/CSS/styles.scss */
+    nav ul li {
+      list-style: none;
+      display: inline-block; }
+      /* line 21, EksammenOpgave/CSS/styles.scss */
+      nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: 10px;
+        font-weight: bold;
+        padding-left: 20px;
+        color: black; }
+        /* line 28, EksammenOpgave/CSS/styles.scss */
+        nav ul li a:hover {
+          color: #000; }
+    /* line 33, EksammenOpgave/CSS/styles.scss */
+    nav ul li:nth-child(4) {
+      float: right; }
+
+/*# sourceMappingURL=styles.css.map */
