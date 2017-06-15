@@ -1,42 +1,139 @@
-/* line 1, EksammenOpgave/CSS/styles.scss */
+/*IMPORTING GOOGLE FRONTS*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*STOPPING IMPORTING GOOGLE FRONTS*/
+/* line 7, EksammenOpgave/CSS/styles.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333; }
+
+/* line 12, EksammenOpgave/CSS/styles.scss */
 .wrapper {
   width: 70%;
   margin: 0 auto; }
 
-/* line 6, EksammenOpgave/CSS/styles.scss */
+/* line 17, EksammenOpgave/CSS/styles.scss */
 .img-responsive {
   width: 100%; }
 
-/* line 11, EksammenOpgave/CSS/styles.scss */
+/* line 21, EksammenOpgave/CSS/styles.scss */
 .logo {
   width: 85%;
   margin-left: 5%; }
 
 /*NAV */
-/* line 21, EksammenOpgave/CSS/styles.scss */
+/* line 30, EksammenOpgave/CSS/styles.scss */
 nav {
-  height: 40px;
-  background-color: lightgray; }
-  /* line 24, EksammenOpgave/CSS/styles.scss */
+  margin-left: 2%; }
+  /* line 32, EksammenOpgave/CSS/styles.scss */
   nav ul {
-    padding-top: 10px; }
-    /* line 26, EksammenOpgave/CSS/styles.scss */
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin: 0;
+    padding: 0; }
+    /* line 37, EksammenOpgave/CSS/styles.scss */
     nav ul li {
       list-style: none;
-      display: inline-block; }
-      /* line 29, EksammenOpgave/CSS/styles.scss */
+      display: inline-block;
+      padding: 1%; }
+      /* line 41, EksammenOpgave/CSS/styles.scss */
       nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
-        padding-right: 10px;
-        font-weight: bold;
-        padding-left: 20px;
-        color: black; }
-        /* line 36, EksammenOpgave/CSS/styles.scss */
+        font-size: 12px;
+        color: #777;
+        line-height: 30px; }
+        /* line 47, EksammenOpgave/CSS/styles.scss */
         nav ul li a:hover {
-          color: #000; }
-    /* line 41, EksammenOpgave/CSS/styles.scss */
+          text-decoration: underline; }
+    /* line 52, EksammenOpgave/CSS/styles.scss */
     nav ul li:nth-child(4) {
       float: right; }
+
+/* line 58, EksammenOpgave/CSS/styles.scss */
+.current {
+  background-color: #e7e7e7; }
+
+/*HR COLOR AND CSS*/
+/* line 65, EksammenOpgave/CSS/styles.scss */
+hr {
+  border-color: #ccc;
+  border-style: solid none none;
+  border-width: 1px 0 0; }
+
+/* line 71, EksammenOpgave/CSS/styles.scss */
+aside > hr {
+  margin-bottom: 10%; }
+
+/*ASIDE */
+/* line 78, EksammenOpgave/CSS/styles.scss */
+aside {
+  float: left;
+  margin: 30px 28px;
+  width: 20%; }
+
+/*ICONS*/
+/* line 87, EksammenOpgave/CSS/styles.scss */
+.fa {
+  color: black; }
+
+/*MAIN CONTENT*/
+/* line 94, EksammenOpgave/CSS/styles.scss */
+section {
+  float: left;
+  width: 75%; }
+  /* line 98, EksammenOpgave/CSS/styles.scss */
+  section h2 {
+    font-size: 20px; }
+  /* line 102, EksammenOpgave/CSS/styles.scss */
+  section p {
+    font-size: 12px; }
+
+/* line 107, EksammenOpgave/CSS/styles.scss */
+.author {
+  color: #ccc;
+  font-size: 12px; }
+  /* line 110, EksammenOpgave/CSS/styles.scss */
+  .author b {
+    color: black; }
+
+/*LOGIN */
+/* line 118, EksammenOpgave/CSS/styles.scss */
+form {
+  padding-top: 10px; }
+
+/* line 122, EksammenOpgave/CSS/styles.scss */
+.logIn {
+  margin-left: 2.8%; }
+
+/* line 126, EksammenOpgave/CSS/styles.scss */
+#uname {
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  height: 25px;
+  width: 99.8%; }
+
+/* line 133, EksammenOpgave/CSS/styles.scss */
+#pword {
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  height: 25px;
+  width: 99.8%; }
+
+/* line 140, EksammenOpgave/CSS/styles.scss */
+.BTNlogIN {
+  height: 7vh;
+  width: 80px;
+  margin-bottom: 1%;
+  background-color: white;
+  border: #ccc solid 1.2px; }
+  /* line 146, EksammenOpgave/CSS/styles.scss */
+  .BTNlogIN:hover {
+    text-decoration: underline; }
+
+/*FOOTER*/
+/* line 154, EksammenOpgave/CSS/styles.scss */
+footer {
+  clear: both;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
