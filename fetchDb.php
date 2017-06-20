@@ -7,7 +7,8 @@ require_once "connect.php";
     $statement = $DBH->prepare("SELECT * FROM posts");
     $statement->execute();
 
-            /*The PHP Data Objects (PDO)*/
+            /*The PHP Data Objects (PDO) 
+              API, er en softwaregrænseflade, der tillader et stykke software at interagere med andet software.*/
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)){ ?>
 
         <!--  Key->[heading] => Vaule -> [text inside the header]  -->
