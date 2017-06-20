@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Line Andersen - Wilderness</title>
 </head>
 
 <body>
@@ -15,6 +15,7 @@
             <div class="logo">
                 <a href="index.php"> <img class="img-responsive" src="img/header_img.jpg" alt=""></a>
             </div>
+            
             <nav>
                 <ul>
                     <li><a href="index.php">HOME</a></li>

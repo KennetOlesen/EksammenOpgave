@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Line Andersen - Wilderness</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -21,9 +21,11 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!--Front end FrameWork - Kan være Bootstrap der er et reponsive web design som er lavet til at vises på mobiler først også op -->
         <!-- Add your site or application content here -->
         <div class="wrapper">
             <header>
+               <!--En class med Logo og et img som har et link til forsiden " index.php "-->
                 <div class="logo">
                     <a href="index.php"> <img class="img-responsive" src="img/header_img.jpg" alt=""></a>
                 </div>
@@ -55,9 +57,11 @@
                 </nav>
             </header>
             <main>
+                <!--Aside med en text og carosel -->
                 <aside> <img class="img-responsive mySlides" src="img/frk%20overspringshandling.jpg" alt="Line Andersen"> <img class="img-responsive mySlides" src="img/slide1.png" alt="Slider"> <img class="img-responsive mySlides" src="img/slide2.png" alt="Slider"> <img class="img-responsive mySlides" src="img/slide3.png" alt="Slider">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod, nemo ipsa molestias sint maiores vitae facilis illo delectus perferendis quaerat dolores neque veritatis? Officiis fuga ad molestiae voluptatibus dolore!</p>
                     <hr>
+                    <!-- Icons Classes med  -->
                     <div class="icons">
                         <a href="#"> <i class="fa fa-instagram fa-2x" aria-hidden="true">
                     </i> </a>
@@ -70,6 +74,7 @@
                     </div>
                 </aside>
                 <?php 
+                 /* isset checker om username er sat og !empty er ikke er tom */
             if(isset($_SESSION['username']) && !empty($_SESSION['username']) ){ ?>
                     <div>
                         <h1>OPRET ET NYT INDLÆG</h1> </div>
@@ -91,7 +96,9 @@
                                 <div>
                                     <input class="form-control" id="imgAlt" type="text" name="imgAlt" placeholder="Billedets alt tekst"> </div>
                             </div>
-<!--                            <div class="form-group">
+                            <!-- En extra form det kan indholde blogger navn men den er ikke sat til at virke lige nu   -->
+                            <!-- -->
+                            <!--                            <div class="form-group">
                                 <label for="articleAuthor" class="control-label">blogger navns</label>
                                 <div>
                                     <input class="form-control" class="author" type="text" name="articleAuthor" placeholder="Bloggers Navn"> </div>
@@ -109,24 +116,26 @@
                     <?php
         }
         ?>
-                        <section>
-                            <?php
+           <!--Section har include Fetchdb som henter min article   -->
+            <section>
+            <?php
                 include "fetchdb.php";
             ?>
-                        </section>
+            </section>
             </main>
+            <!--Footer -->
             <footer>
                 <hr>
                 <p>&copy; 2017 - WILDERNESS</p>
             </footer>
         </div>
+        <!--Jquery biblotek -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!--Mit Javascript som inholder mit JS carosel-->
         <script src="JS/javascript.js"></script>
         <script>
             window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
         </script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function (b, o, i, l, e, r) {

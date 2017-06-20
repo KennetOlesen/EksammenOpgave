@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*IMPORTING GOOGLE FRONTS*/
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 /*STOPPING IMPORTING GOOGLE FRONTS*/
@@ -81,133 +82,134 @@ nav {
     color: #777;
     line-height: 0; }
 
-/* line 87, EksammenOpgave/CSS/styles.scss */
+/*Giver min carosel billede en fast højte så alle 4 billeder passer */
+/* line 88, EksammenOpgave/CSS/styles.scss */
 .mySlides {
   height: 396px; }
 
 /*HR COLOR AND CSS*/
-/* line 92, EksammenOpgave/CSS/styles.scss */
+/* line 93, EksammenOpgave/CSS/styles.scss */
 hr {
   border-color: #ccc;
   border-style: solid none none;
   border-width: 1px 0 0; }
 
-/* line 98, EksammenOpgave/CSS/styles.scss */
+/* line 99, EksammenOpgave/CSS/styles.scss */
 aside > hr {
   margin-bottom: 10%; }
 
 /*ASIDE */
-/* line 103, EksammenOpgave/CSS/styles.scss */
+/* line 104, EksammenOpgave/CSS/styles.scss */
 aside {
   float: left;
   margin: 30px 28px;
   width: 20%; }
 
 /*ICONS*/
-/* line 111, EksammenOpgave/CSS/styles.scss */
+/* line 112, EksammenOpgave/CSS/styles.scss */
 .icons a {
   text-decoration: none; }
 
-/* line 116, EksammenOpgave/CSS/styles.scss */
+/* line 117, EksammenOpgave/CSS/styles.scss */
 .fa {
   color: black; }
 
 /*MAIN CONTENT*/
-/* line 121, EksammenOpgave/CSS/styles.scss */
+/* line 122, EksammenOpgave/CSS/styles.scss */
 section {
   float: left;
   width: 75%; }
-  /* line 124, EksammenOpgave/CSS/styles.scss */
+  /* line 125, EksammenOpgave/CSS/styles.scss */
   section h2 {
     font-size: 20px; }
-  /* line 128, EksammenOpgave/CSS/styles.scss */
+  /* line 129, EksammenOpgave/CSS/styles.scss */
   section author {
     font-size: 12px; }
-  /* line 131, EksammenOpgave/CSS/styles.scss */
+  /* line 132, EksammenOpgave/CSS/styles.scss */
   section p {
     width: 100%;
     font-size: 12px; }
 
 /*Header H1 for down below CSS*/
-/* line 138, EksammenOpgave/CSS/styles.scss */
+/* line 139, EksammenOpgave/CSS/styles.scss */
 div:nth-child(2) > h1 {
   margin: 0;
   padding-bottom: 5px; }
 
 /*4 text boxes and a BTN*/
-/* line 144, EksammenOpgave/CSS/styles.scss */
+/* line 145, EksammenOpgave/CSS/styles.scss */
 .mainForm {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   border-bottom: 1px solid #ccc; }
 
-/* line 151, EksammenOpgave/CSS/styles.scss */
+/* line 152, EksammenOpgave/CSS/styles.scss */
 .form-control {
   margin: 10px 0px 10px 0px;
   width: 995px;
   height: 30px; }
 
-/* line 157, EksammenOpgave/CSS/styles.scss */
+/* line 158, EksammenOpgave/CSS/styles.scss */
 .BTN {
   padding: 10px;
   background-color: #fff;
   margin-bottom: 10px; }
 
-/* line 163, EksammenOpgave/CSS/styles.scss */
+/* line 164, EksammenOpgave/CSS/styles.scss */
 .form-group:nth-child(6) {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-/* line 168, EksammenOpgave/CSS/styles.scss */
+/* line 169, EksammenOpgave/CSS/styles.scss */
 article:not(:last-child) {
   border-bottom: 1px solid #ccc; }
 
-/* line 173, EksammenOpgave/CSS/styles.scss */
+/* line 174, EksammenOpgave/CSS/styles.scss */
 .author {
   color: #6a6a6a;
   font-size: 12px; }
-  /* line 176, EksammenOpgave/CSS/styles.scss */
+  /* line 177, EksammenOpgave/CSS/styles.scss */
   .author b {
     color: #333333; }
 
-/* line 181, EksammenOpgave/CSS/styles.scss */
+/* line 182, EksammenOpgave/CSS/styles.scss */
 #articleText {
   padding-bottom: 100px; }
 
 /*LOGIN */
-/* line 187, EksammenOpgave/CSS/styles.scss */
+/* line 188, EksammenOpgave/CSS/styles.scss */
 .logIn {
   padding-top: 15px;
   margin-left: 2.8%; }
 
-/* line 192, EksammenOpgave/CSS/styles.scss */
+/* line 193, EksammenOpgave/CSS/styles.scss */
 #uname {
   margin-top: 0.5%;
   margin-bottom: 1%;
   height: 25px;
   width: 99.8%; }
 
-/* line 199, EksammenOpgave/CSS/styles.scss */
+/* line 200, EksammenOpgave/CSS/styles.scss */
 #pword {
   margin-top: 0.5%;
   margin-bottom: 1%;
   height: 25px;
   width: 99.8%; }
 
-/* line 206, EksammenOpgave/CSS/styles.scss */
+/* line 207, EksammenOpgave/CSS/styles.scss */
 .BTNlogIN {
   height: 5vh;
   width: 80px;
   margin-bottom: 1%;
   background-color: white;
   border: #ccc solid 1.2px; }
-  /* line 212, EksammenOpgave/CSS/styles.scss */
+  /* line 213, EksammenOpgave/CSS/styles.scss */
   .BTNlogIN:hover {
     text-decoration: underline; }
 
 /*FOOTER*/
-/* line 218, EksammenOpgave/CSS/styles.scss */
+/* line 219, EksammenOpgave/CSS/styles.scss */
 footer {
   clear: both;
   text-align: center; }
@@ -215,114 +217,114 @@ footer {
 /*MEDIA QURRIES! */
 /* Table Size*/
 @media (max-width: 768px) {
-  /* line 227, EksammenOpgave/CSS/styles.scss */
+  /* line 228, EksammenOpgave/CSS/styles.scss */
   .wrapper {
     width: 95%;
     margin: 0 auto; }
-  /* line 231, EksammenOpgave/CSS/styles.scss */
+  /* line 232, EksammenOpgave/CSS/styles.scss */
   nav {
     margin: 0; }
-  /* line 234, EksammenOpgave/CSS/styles.scss */
+  /* line 235, EksammenOpgave/CSS/styles.scss */
   .logo {
     width: 100%;
     margin: 0; }
-  /* line 238, EksammenOpgave/CSS/styles.scss */
+  /* line 239, EksammenOpgave/CSS/styles.scss */
   aside {
     padding-top: 15px;
     float: none;
     margin: 0;
     width: 100%; }
-  /* line 244, EksammenOpgave/CSS/styles.scss */
+  /* line 245, EksammenOpgave/CSS/styles.scss */
   aside > hr {
     margin-bottom: 2%; }
-  /* line 247, EksammenOpgave/CSS/styles.scss */
+  /* line 248, EksammenOpgave/CSS/styles.scss */
   #float-right {
     float: right;
     display: flex;
     justify-content: flex-end;
     width: 17%;
     margin: 0; }
-  /* line 254, EksammenOpgave/CSS/styles.scss */
+  /* line 255, EksammenOpgave/CSS/styles.scss */
   #float-right span {
     padding-top: 8px;
     padding-right: 0;
     color: #777;
     margin: 0; }
-  /* line 260, EksammenOpgave/CSS/styles.scss */
+  /* line 261, EksammenOpgave/CSS/styles.scss */
   #float-right > span:nth-child(2) {
     padding-left: 8px; }
-  /* line 263, EksammenOpgave/CSS/styles.scss */
+  /* line 264, EksammenOpgave/CSS/styles.scss */
   #float-right li {
     padding-top: 7px;
     text-align: end; }
-  /* line 267, EksammenOpgave/CSS/styles.scss */
+  /* line 268, EksammenOpgave/CSS/styles.scss */
   div:nth-child(2) > h1 {
     margin: 0;
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 272, EksammenOpgave/CSS/styles.scss */
+  /* line 273, EksammenOpgave/CSS/styles.scss */
   .form-control {
     margin: 10px 0px 10px 0px;
     width: 715px;
     height: 30px; }
-  /* line 277, EksammenOpgave/CSS/styles.scss */
+  /* line 278, EksammenOpgave/CSS/styles.scss */
   section {
     float: left;
     width: 100%; } }
 
 /*Mobile Size 324px */
 @media (max-width: 324px) {
-  /* line 286, EksammenOpgave/CSS/styles.scss */
+  /* line 287, EksammenOpgave/CSS/styles.scss */
   .wrapper {
     width: 95%;
     margin: 0 auto; }
-  /* line 290, EksammenOpgave/CSS/styles.scss */
+  /* line 291, EksammenOpgave/CSS/styles.scss */
   nav {
     margin: 0; }
-    /* line 295, EksammenOpgave/CSS/styles.scss */
+    /* line 296, EksammenOpgave/CSS/styles.scss */
     nav a:not(:last-child) {
       padding-right: 10px; }
-  /* line 299, EksammenOpgave/CSS/styles.scss */
+  /* line 300, EksammenOpgave/CSS/styles.scss */
   .logo {
     width: 100%;
     margin: 0; }
-  /* line 303, EksammenOpgave/CSS/styles.scss */
+  /* line 304, EksammenOpgave/CSS/styles.scss */
   aside {
     padding-top: 10px;
     float: none;
     margin: 0;
     width: 100%; }
-  /* line 309, EksammenOpgave/CSS/styles.scss */
+  /* line 310, EksammenOpgave/CSS/styles.scss */
   #float-right {
     float: right;
     display: flex;
     justify-content: flex-end;
     width: 0;
     margin: 0; }
-  /* line 316, EksammenOpgave/CSS/styles.scss */
+  /* line 317, EksammenOpgave/CSS/styles.scss */
   #float-right span {
     padding-top: 8px;
     padding-right: 0;
     color: #777;
     margin: 0; }
-  /* line 322, EksammenOpgave/CSS/styles.scss */
+  /* line 323, EksammenOpgave/CSS/styles.scss */
   #float-right > span:nth-child(2) {
     padding-left: 8px; }
-  /* line 325, EksammenOpgave/CSS/styles.scss */
+  /* line 326, EksammenOpgave/CSS/styles.scss */
   #float-right li {
     padding: 0;
     text-align: end; }
-  /* line 329, EksammenOpgave/CSS/styles.scss */
+  /* line 330, EksammenOpgave/CSS/styles.scss */
   div:nth-child(2) > h1 {
     margin: 0;
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 334, EksammenOpgave/CSS/styles.scss */
+  /* line 335, EksammenOpgave/CSS/styles.scss */
   .form-control {
     margin: 10px 0px 10px 0px;
     width: 286px;
     height: 30px; }
-  /* line 339, EksammenOpgave/CSS/styles.scss */
+  /* line 340, EksammenOpgave/CSS/styles.scss */
   section {
     float: left;
     width: 100%; } }
