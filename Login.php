@@ -12,25 +12,30 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="logo"> <img class="img-responsive" src="img/header_img.jpg" alt=""> </div>
+            <div class="logo">
+                <a href="index.php"> <img class="img-responsive" src="img/header_img.jpg" alt=""></a>
+            </div>
             <nav>
                 <ul>
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="#">PLANTER</a></li>
                     <li><a href="#">INDRETNING</a></li>
                     <li class="current"><a href="Login.php">LOG IND</a></li>
+                    <li><a href="Register.php">REGISTER</a></li>
                 </ul>
             </nav>
         </header>
-        <main>  <!--Aside with a login system! - Hvis bruger ikke logget ind vises nedenstående -->
-                    <div class="logIn">
-                        <form action="checkUser.php" method="post">
-                           <label for="" class="label">BRUGERNAVN: </label>
-                            <input type="text" id="uname" name="formUsername" placeholder="Indtast Dit Brugernavn">
-                            <label for="">PASSWORD: </label>
-                            <input type="password" id="pword" name="formPassword" placeholder="Indtast Dit Password..">
-                            <input type="submit" value="Log in" class="BTNlogIN"> </form>
-                    </div></main>
+        <main>
+            <!--login system! -->
+            <div class="logIn">
+                <form action="checkUser.php" method="post">
+                    <label for="user" class="label">BRUGERNAVN: </label>
+                    <input type="text" id="uname" name="formUsername" placeholder="Indtast Dit Brugernavn">
+                    <label for="">PASSWORD: </label>
+                    <input type="password" id="pword" name="formPassword" placeholder="Indtast Dit Password..">
+                    <input type="submit" value="Log in" class="BTNlogIN"> </form>
+            </div>
+        </main>
         <footer>
             <hr>
             <p>&copy; 2017 - WILDERNESS</p>
